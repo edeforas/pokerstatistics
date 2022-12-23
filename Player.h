@@ -27,8 +27,20 @@ public:
 			return;
 		}
 
+
 		assert("Cannot have more than 2 cards");
 	}
+
+	int card1()
+	{
+		return _card1;
+	}
+
+	int card2()
+	{
+		return _card2;
+	}
+
 private:
 	int _card1, _card2;
 
