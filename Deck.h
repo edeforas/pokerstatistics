@@ -42,7 +42,7 @@ public:
 		int iValue = iCard / 10;
 
 		string allColors = "cqtp";
-		string allValues = "23456789TVDRA";
+		string allValues = "23456789TJQKA";
 
 		return  allValues.substr(iValue,1)+ allColors.substr(iColor, 1);
 	}
