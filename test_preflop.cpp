@@ -37,9 +37,9 @@ int main()
 	d.burn_one();
 	t.take(d.give_one());
 
-	cout << "Player1 Hand: " << d.to_string(p1.card1()) << " " << d.to_string(p1.card2()) << " Best: " << t.best_hand(p1) << endl;
-	cout << "Player2 Hand: " << d.to_string(p2.card1()) << " " << d.to_string(p2.card2()) << " Best: " << t.best_hand(p2) << endl;
-	cout << "Player3 Hand: " << d.to_string(p3.card1()) << " " << d.to_string(p3.card2()) << " Best: " << t.best_hand(p3) << endl;
+	cout << "Player1: " << d.to_string(p1.card1()) << " " << d.to_string(p1.card2()) << " Best: " << t.best_hand(p1) << endl;
+	cout << "Player2: " << d.to_string(p2.card1()) << " " << d.to_string(p2.card2()) << " Best: " << t.best_hand(p2) << endl;
+	cout << "Player3: " << d.to_string(p3.card1()) << " " << d.to_string(p3.card2()) << " Best: " << t.best_hand(p3) << endl;
 
 	cout << "Table: ";
 	for (int i = 0; i < t.all_cards().size(); i++)
